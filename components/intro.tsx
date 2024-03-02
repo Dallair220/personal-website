@@ -19,8 +19,8 @@ export default function Intro() {
       >
         <div className='flex items-center justify-center gap-5'>
           <div>
-            <div className='font-bold text-2xl sm:text-4xl'>Paul Hermann</div>
-            <div className='text-xl sm:text-2xl'>Full-Stack Software Entwickler</div>
+            <h1 className='font-bold text-2xl sm:text-4xl'>Paul Hermann</h1>
+            <h2 className='text-xl sm:text-2xl'>Full-Stack Software Entwickler</h2>
           </div>
           <div>
             <div className='flex items-center justify-center'>
