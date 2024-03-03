@@ -8,10 +8,17 @@ import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
+  const { ref } = useSectionInView('Start', 0.25);
+
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section
+      ref={ref}
+      id='start'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+    >
       <motion.div
         className='mb-5 px-4 font-medium'
         initial={{ opacity: 0, y: 50 }}
@@ -20,7 +27,7 @@ export default function Intro() {
         <div className='flex items-center justify-center gap-5'>
           <div>
             <h1 className='font-bold text-2xl sm:text-4xl'>Paul Hermann</h1>
-            <h2 className='text-xl sm:text-2xl'>Full-Stack Software Entwickler</h2>
+            <h2 className='text-xl sm:text-2xl'>Full-Stack Softwareentwickler</h2>
           </div>
           <div>
             <div className='flex items-center justify-center'>
