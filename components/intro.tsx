@@ -34,6 +34,7 @@ export default function Intro() {
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 2.25 }}
                 transition={{
                   type: 'spring',
                   duration: 0.25,
@@ -43,7 +44,8 @@ export default function Intro() {
                   src={profile}
                   alt='Paul Hermann'
                   priority={true}
-                  className='h-20 w-20  rounded-full object-cover border border-white shadow-xl'
+                  quality={95}
+                  className='h-20 w-20 rounded-full object-cover border border-white shadow-xl'
                 />
               </motion.div>
             </div>

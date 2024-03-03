@@ -14,7 +14,7 @@ export default function About() {
         delay: 0.175,
       }}
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Über mich</SectionHeading>
       <p>
         Ich bin ein Softwareentwickler, der sich auf die Entwicklung von Webanwendungen
         spezialisiert hat. Ich habe Erfahrung in der Entwicklung von Frontend- und
