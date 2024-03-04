@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Backdrop from './backdrop';
 
@@ -13,6 +13,19 @@ const appear = {
 };
 
 export default function Modal({ children, handleClose }: ModalProps) {
+  useEffect(() => {
+    const handleEsc = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        handleClose();
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, [handleClose]);
+
   return (
     <Backdrop onClick={handleClose}>
       <motion.div

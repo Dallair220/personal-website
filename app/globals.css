@@ -5,3 +5,24 @@
 html {
   --line-color: #e5e7eb;
 }
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background-color: rgba(193, 193, 193, 0.5);
+  border-radius: 16px;
+}
+*::-webkit-scrollbar-track:hover {
+  background-color: rgba(193, 193, 193, 0.8);
+  border-radius: 16px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(88, 101, 242, 0.5);
+  border-radius: 16px;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: #5865f2;
+  border-radius: 16px;
+}
