@@ -68,14 +68,14 @@ export const projectsData = [
     title: 'Boostopia',
     description:
       'Eine Plattform, um Kunden und Freelancer für Videospielservices zu verbinden. Besonderheit: Bestellverwaltung, verschiedene Dashboards je Usertyp.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['React', 'NestJS', 'MongoDB', 'Bootstrap', 'Stripe', 'Wise API'],
     imageUrl: boostopiaImg,
   },
   {
     title: 'League Ladder',
     description:
-      'Als Teil meine Praxisprojekts an der TH Köln habe ich eine Webplattform entwickelt, um eine Elo-basierte Rangliste für ein Videospiel zu verwalten.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+      'Als Teil meines Praxisprojekts an der TH Köln habe ich eine Webplattform entwickelt, um eine Elo-basierte Rangliste für ein Videospiel zu verwalten.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Passport.js'],
     imageUrl: leagueladderImg,
   },
 ] as const;
