@@ -12,7 +12,10 @@ export default function Kontakt() {
       <SectionHeading>Kontakt</SectionHeading>
       <p>
         Sie können mich unter{' '}
-        <a href='mailto:paulhermann.dev@pm.me' className='underline'>
+        <a
+          href='mailto:paulhermann.dev@pm.me'
+          className='font-medium underline hover:text-blue-800'
+        >
           paulhermann.dev@pm.me
         </a>{' '}
         kontaktieren.

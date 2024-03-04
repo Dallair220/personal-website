@@ -36,7 +36,7 @@ export default function Intro() {
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
-                whileHover={{ scale: 2.25 }}
+                whileHover={{ scale: 2 }}
                 transition={{
                   type: 'spring',
                   duration: 0.25,

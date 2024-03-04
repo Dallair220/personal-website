@@ -16,15 +16,10 @@ export default function About() {
     >
       <SectionHeading>Über mich</SectionHeading>
       <p>
-        Ich bin ein Softwareentwickler, der sich auf die Entwicklung von Webanwendungen
-        spezialisiert hat. Ich habe Erfahrung in der Entwicklung von Frontend- und
-        Backend-Anwendungen und habe in verschiedenen Projekten gearbeitet, die von kleinen Websites
-        bis hin zu großen Unternehmensanwendungen reichen.
-      </p>
-      <p>
-        Als Softwareentwickler habe ich Erfahrung in der Arbeit mit verschiedenen Technologien und
-        bin in der Lage, mich schnell in neue Technologien einzuarbeiten. Ich habe Erfahrung in der
-        Arbeit mit JavaScript, TypeScript, React, Node.js, Express, MongoDB, SQL, HTML, CSS und
+        Als Full-Stack Softwareentwickler habe ich Erfahrung in der Arbeit mit verschiedenen
+        Frontend- und Backend Tools und bin in der Lage, mich schnell in neue Technologien
+        einzuarbeiten. Meine Affinität für die IT und das Programmieren habe ich bereits in meiner
+        Jugend entdeckt und seitdem stetig weiterentwickelt.
       </p>
     </motion.section>
   );
