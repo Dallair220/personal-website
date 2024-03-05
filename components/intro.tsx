@@ -49,6 +49,8 @@ export default function Intro() {
                   priority={true}
                   quality={95}
                   className='h-20 w-20 rounded-full object-cover border border-white shadow-xl'
+                  onContextMenu={(e) => e.preventDefault()}
+                  draggable={false}
                 />
               </motion.div>
             </div>
