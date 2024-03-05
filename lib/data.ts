@@ -41,7 +41,7 @@ export const experiencesData = [
     title: 'Front-End Entwickler',
     location: 'Deutschland',
     description:
-      'Nach intensiver Beschäftigung mit Web-Entwicklung und JavaScript-Technologien zur Optimierung und Weiterentwicklung unserer Webplattform, habe ich mich dazu entschlossen, eine Karriere im Bereich der Softwareentwicklung zu verfolgen.',
+      'Nach intensiver Beschäftigung mit Web-Entwicklung und JavaScript-Technologien zur Verbesserung unserer Plattform, entschied ich mich für eine Karriere in der Softwareentwicklung.',
     icon: React.createElement(FaReact),
     date: '2023 - 2024',
   },
@@ -67,16 +67,20 @@ export const projectsData = [
   {
     title: 'Boostopia',
     description:
-      'Eine Plattform, um Kunden und Freelancer für Videospielservices zu verbinden. Besonderheit: Bestellverwaltung, verschiedene Dashboards je Usertyp.',
+      'Plattform zur Verbindung von Kunden und Freelancern im Bereich Videospielservices. Features: Automatisches Bestellmanagement und rollenspezifische Dashboards.',
     tags: ['React', 'NestJS', 'MongoDB', 'Bootstrap', 'Stripe', 'Wise API'],
     imageUrl: boostopiaImg,
+    link: 'https://staging.boostopia.gg/',
+    github: 'private',
   },
   {
     title: 'League Ladder',
     description:
-      'Als Teil meines Praxisprojekts an der TH Köln habe ich eine Webplattform entwickelt, um eine Elo-basierte Rangliste für ein Videospiel zu verwalten.',
-    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Passport.js'],
+      'Im Rahmen meines Praxisprojekts an der TH Köln habe ich eine Full-Stack Web-App zur eigenständigen Verwaltung einer Rangliste für ein Videospiel entwickelt.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Sessions', 'OAuth2'],
     imageUrl: leagueladderImg,
+    github: 'https://github.com/Dallair220/studium',
+    link: 'https://praxisprojekt-cf89137f47c5.herokuapp.com/',
   },
 ] as const;
 

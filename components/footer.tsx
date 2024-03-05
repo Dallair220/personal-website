@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className='pb-10 px-4 text-center text-gray-500'>
       <p className='text-xs mb-2'>
-        Diese Website wurde erstellt mit: React, Next.js, TypeScript, Tailwind CSS, Framer Motion,
+        Diese Website wurde erstellt mit React, Next.js, TypeScript, Tailwind CSS, Framer Motion,
         Vercel hosting und 🖤.
       </p>
 
