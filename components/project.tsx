@@ -52,7 +52,7 @@ export default function Project({
             <a
               href={github}
               target='_blank'
-              className='bg-[#5865F2] bg-opacity-20 px-4 py-2 text-gray-700 flex items-center justify-around rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'
+              className='bg-[#5865F2] bg-opacity-10 px-4 py-2 text-gray-700 flex items-center justify-around rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'
             >
               <div className='text-2xl'>
                 <FaGithubSquare />
@@ -66,7 +66,7 @@ export default function Project({
             <a
               href={link}
               target='_blank'
-              className='bg-[#FFFBD8] px-4 py-2 text-gray-700 flex items-center justify-around rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'
+              className='bg-[#FFFBD8] bg-opacity-50 px-4 py-2 text-gray-700 flex items-center justify-around rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'
             >
               <div className='text-2xl'>
                 <FaGlobe />
