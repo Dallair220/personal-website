@@ -85,7 +85,7 @@ export default function Intro() {
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
         <a
-          href='/lebenslauf.pdf'
+          href='/Lebenslauf.pdf'
           download
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-102 transition cursor-pointer border border-black/10'
         >
