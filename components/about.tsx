@@ -21,6 +21,12 @@ export default function About() {
         einzuarbeiten. Meine Affinität für die IT und das Programmieren habe ich bereits in meiner
         Jugend entdeckt und seitdem stetig weiterentwickelt.
       </p>
+      <br />
+      <p className='font-semibold'>
+        Ich bin ab dem 15. April 2024 für eine Werkstudentenstelle (20h/Woche) verfügbar. Dies kann
+        als Probezeit angesehen werden, da ich nach Abschluss (~August 2024) meines
+        Informatikstudiums als Vollzeitkraft zur Verfügung stehe.
+      </p>
     </motion.section>
   );
 }
