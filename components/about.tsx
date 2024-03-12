@@ -23,9 +23,8 @@ export default function About() {
       </p>
       <br />
       <p className='font-semibold'>
-        Ich bin ab dem 15. April 2024 für eine Werkstudentenstelle (20h/Woche) verfügbar. Dies kann
-        als Probezeit angesehen werden, da ich nach Abschluss (~August 2024) meines
-        Informatikstudiums als Vollzeitkraft zur Verfügung stehe.
+        Ich bin ab dem 15. April 2024 in Teilzeit (20h/Woche) verfügbar. Nach Abschluss meines
+        Informatikstudiums (~August 2024) stehe ich als Vollzeitkraft zur Verfügung.
       </p>
     </motion.section>
   );
