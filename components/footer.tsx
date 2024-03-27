@@ -15,7 +15,10 @@ export default function Footer() {
 
       <small className='text-xs'>&copy; {new Date().getFullYear()} Paul Hermann. </small>
 
-      <button onClick={() => setModalOpen(true)} className='text-xs underline hover:text-gray-950'>
+      <button
+        onClick={() => setModalOpen(true)}
+        className='text-xs underline hover:text-gray-950 hover:no-underline'
+      >
         Impressum
       </button>
 

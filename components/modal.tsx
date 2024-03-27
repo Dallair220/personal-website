@@ -37,7 +37,10 @@ export default function Modal({ children, handleClose }: ModalProps) {
       >
         <div className='bg-gray-100 border border-black/5 rounded-lg px-8 py-6'>
           {children}
-          <button onClick={handleClose} className='text-xs mt-8 hover:text-gray-950 underline'>
+          <button
+            onClick={handleClose}
+            className='text-xs mt-8 hover:text-gray-950 underline hover:no-underline'
+          >
             Schließen
           </button>
         </div>
