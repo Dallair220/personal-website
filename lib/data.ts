@@ -54,10 +54,10 @@ export const experiencesData = [
     date: '~ August 2024',
   },
   {
-    title: 'Werkstudent: Full-Stack Entwickler',
+    title: 'Full-Stack Entwickler',
     location: 'Remote (innerhalb Deutschland)',
     description:
-      'Während meiner Bachelorarbeit bin ich offen für eine Werkstudententätigkeit im Bereich Full-Stack Softwareentwicklung mit einem Umfang von 20 Stunden pro Woche.',
+      'Während meiner Bachelorarbeit bin ich offen für eine Teilzeitstelle als Full-Stack Softwareentwickler mit einem Umfang von 20 Stunden pro Woche.',
     icon: React.createElement(CgWorkAlt),
     date: 'ab sofort',
   },
