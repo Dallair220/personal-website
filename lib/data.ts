@@ -33,7 +33,7 @@ export const experiencesData = [
     title: 'Product Owner und Projektmanager',
     location: 'Deutschland',
     description:
-      'Ich habe an meinem eigenen kleinen Unternehmen gearbeitet und die Erstellung einer Webplattform zur Verbindung von Kunden und Freelancern für Videospielservices geleitet.',
+      'Ich habe an meinem eigenen kleinen Unternehmen gearbeitet und die Erstellung einer Webplattform (zur Verbindung von Kunden und Freelancern für Videospieldienstleistungen) geleitet.',
     icon: React.createElement(CgWorkAlt),
     date: '2022-2023',
   },

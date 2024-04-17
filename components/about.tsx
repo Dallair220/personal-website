@@ -23,7 +23,7 @@ export default function About() {
       </p>
       <br />
       <p className='font-semibold'>
-        Ich bin ab dem 15. April 2024 in Teilzeit (20h/Woche) verfügbar. Nach Abschluss meines
+        Ich bin ab sofort in Teilzeit (20h/Woche) verfügbar. Nach Abschluss meines
         Informatikstudiums (~August 2024) stehe ich als Vollzeitkraft zur Verfügung.
       </p>
     </motion.section>
