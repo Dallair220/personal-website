@@ -48,18 +48,16 @@ export const experiencesData = [
   {
     title: 'Wirtschaftsinformatik (Bachelor of Science)',
     location: 'Köln, Deutschland',
-    description:
-      'Ich studiere derzeit Informatik an der Technischen Hochschule Köln. Voraussichtlich werde ich meinen Abschluss im August 2024 erhalten. In allen Programmierkursen habe ich eine 1,0 erreicht.',
+    description: 'Note: 1,8',
     icon: React.createElement(LuGraduationCap),
-    date: '~ August 2024',
+    date: '2020 - 2024',
   },
   {
-    title: 'Full-Stack Entwickler',
-    location: 'Remote (innerhalb Deutschland)',
-    description:
-      'Während meiner Bachelorarbeit bin ich offen für eine Teilzeitstelle als Full-Stack Softwareentwickler mit einem Umfang von 20 Stunden pro Woche.',
+    title: 'Software-Entwickler bei Unicon GmbH',
+    location: 'Remote',
+    description: 'Weiterentwicklung der Scout Management-Plattform.',
     icon: React.createElement(CgWorkAlt),
-    date: 'ab sofort',
+    date: 'seit Mai 2024',
   },
 ] as const;
 

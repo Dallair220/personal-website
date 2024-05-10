@@ -21,11 +21,6 @@ export default function About() {
         einzuarbeiten. Meine Affinität für die IT und das Programmieren habe ich bereits in meiner
         Jugend entdeckt und seitdem stetig weiterentwickelt.
       </p>
-      <br />
-      <p className='font-semibold'>
-        Ich bin ab sofort in Teilzeit (20h/Woche) verfügbar. Nach Abschluss meines
-        Informatikstudiums (~August 2024) stehe ich als Vollzeitkraft zur Verfügung.
-      </p>
     </motion.section>
   );
 }
