@@ -97,5 +97,4 @@ export const skillsData = [
   'Next.js',
   'TypeScript',
   'Tailwind',
-  'Framer Motion',
 ] as const;
