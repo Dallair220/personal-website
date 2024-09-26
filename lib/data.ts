@@ -15,12 +15,12 @@ export const links = [
     hash: '#projekte',
   },
   {
-    name: 'Kenntnisse',
-    hash: '#kenntnisse',
-  },
-  {
     name: 'Erfahrungen',
     hash: '#erfahrungen',
+  },
+  {
+    name: 'Kontakt',
+    hash: '#kontakt',
   },
 ] as const;
 

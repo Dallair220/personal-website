@@ -21,14 +21,8 @@ const fadeInAnimationVariants = {
 };
 
 export default function Skills() {
-  const { ref } = useSectionInView('Kenntnisse', 1);
-
   return (
-    <section
-      ref={ref}
-      id='kenntnisse'
-      className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'
-    >
+    <section id='kenntnisse' className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'>
       <SectionHeading>Meine Kenntnisse</SectionHeading>
       <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
         {skillsData.map((skill, index) => (
