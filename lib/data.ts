@@ -41,7 +41,7 @@ export const experiencesData = [
     title: 'Full-Stack Softwareentwickler',
     location: 'Deutschland',
     description:
-      'Nach intensiver Beschäftigung mit Web-Entwicklung und JavaScript-Technologien zur Verbesserung unserer Plattform, entschied ich mich für eine Karriere in der Softwareentwicklung.',
+      'Nach intensiver Beschäftigung mit Web-Entwicklung und JavaScript-Technologien zur Verbesserung meiner Webplattform, entschied ich mich für eine Karriere in der Softwareentwicklung.',
     icon: React.createElement(FaReact),
     date: '2023 - 2024',
   },
@@ -50,7 +50,7 @@ export const experiencesData = [
     location: 'Köln, Deutschland',
     description: 'Note: 1,8',
     icon: React.createElement(LuGraduationCap),
-    date: '2020 - 2024',
+    date: '2024',
   },
   {
     title: 'Softwareentwickler bei Unicon GmbH',
