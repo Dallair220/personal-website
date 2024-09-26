@@ -38,7 +38,7 @@ export const experiencesData = [
     date: '2022-2023',
   },
   {
-    title: 'Front-End Entwickler',
+    title: 'Full-Stack Softwareentwickler',
     location: 'Deutschland',
     description:
       'Nach intensiver Beschäftigung mit Web-Entwicklung und JavaScript-Technologien zur Verbesserung unserer Plattform, entschied ich mich für eine Karriere in der Softwareentwicklung.',
@@ -53,7 +53,7 @@ export const experiencesData = [
     date: '2020 - 2024',
   },
   {
-    title: 'Software-Entwickler bei Unicon GmbH',
+    title: 'Softwareentwickler bei Unicon GmbH',
     location: 'Remote',
     description: 'Weiterentwicklung der Scout Management-Plattform.',
     icon: React.createElement(CgWorkAlt),
