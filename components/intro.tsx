@@ -73,17 +73,16 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
-          href='#kontakt'
+        <a
+          href='mailto:dev@paulhermann.me'
           className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-102 transition'
           onClick={() => {
             setActiveSection('Kontakt');
             setTimeOfLastClick(Date.now());
           }}
         >
-          Kontaktiere mich{' '}
-          <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
-        </Link>
+          E-Mail <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
+        </a>
         <a
           href='/Lebenslauf.pdf'
           download

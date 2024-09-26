@@ -8,11 +8,6 @@ export default function Footer() {
 
   return (
     <footer className='pb-10 px-4 text-center text-gray-500'>
-      <p className='text-xs mb-2'>
-        Diese Website wurde erstellt mit React, Next.js, TypeScript, Tailwind CSS, Vercel hosting
-        und 🖤.
-      </p>
-
       <small className='text-xs'>&copy; {new Date().getFullYear()} Paul Hermann. </small>
 
       <button
