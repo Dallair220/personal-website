@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
-import profile from '../public/profilbild.webp';
+import profile from '../public/profilbild.png';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
@@ -36,7 +36,7 @@ export default function Intro() {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 whileHover={{ scale: 2 }}
-                whileTap={{ scale: 2.5 }}
+                whileTap={{ scale: 3 }}
                 transition={{
                   type: 'spring',
                   duration: 0.25,
