@@ -8,8 +8,8 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Paul Hermann | Personal Portfolio',
-  description: 'Paul Hermann is a full-stack developer with over 1 year of experience.',
+  title: 'Paul Hermann | Persönliche Webseite',
+  description: 'Paul Hermann ist ein Full-Stack-Entwickler mit über 2 Jahre Erfahrung.',
 };
 
 export default function RootLayout({
