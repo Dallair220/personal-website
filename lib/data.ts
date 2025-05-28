@@ -54,7 +54,7 @@ export const experiencesData = [
     date: 'Mai 2024 - Januar 2025',
   },
   {
-    title: 'Application Development Engineer (bei Citrix)',
+    title: 'Application Development Engineer',
     location: 'Citrix (Remote)',
     description: 'Weiterentwicklung des Scout Board.',
     icon: React.createElement(CgWorkAlt),
