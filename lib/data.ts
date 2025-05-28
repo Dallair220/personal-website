@@ -31,7 +31,7 @@ export const experiencesData = [
     description:
       'Ich habe an meinem eigenen kleinen Unternehmen gearbeitet und die Erstellung einer Webplattform (zur Verbindung von Kunden und Freelancern für Videospieldienstleistungen) geleitet.',
     icon: React.createElement(CgWorkAlt),
-    date: '2022-2023',
+    date: '2022 - 2023',
   },
   {
     title: 'Full-Stack Softwareentwickler',
@@ -53,7 +53,14 @@ export const experiencesData = [
     location: 'Remote',
     description: 'Weiterentwicklung der Scout Management-Plattform.',
     icon: React.createElement(CgWorkAlt),
-    date: 'seit Mai 2024',
+    date: 'Mai 2024 - Januar 2025',
+  },
+  {
+    title: 'Application Development Engineer bei Citrix',
+    location: 'Remote',
+    description: 'Weiterentwicklung des Scout Boards.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'seit Januar 2025',
   },
 ] as const;
 
