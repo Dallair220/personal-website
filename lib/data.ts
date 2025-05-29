@@ -1,9 +1,10 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { LuGraduationCap, LuRocket } from 'react-icons/lu';
 import boostopiaImg from '@/public/boostopia.png';
 import leagueladderImg from '@/public/leagueladder.png';
+import CitrixIcon from '@/components/citrix-icon';
 
 export const links = [
   {
@@ -27,37 +28,37 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Product Owner und Projektmanager',
-    location: 'Boostopia (Remote)',
+    location: 'Boostopia',
     description: 'Ich habe als Gründer die Entwicklung einer Webplattform zur Verbindung von Kunden und Freelancern für Videospieldienstleistungen geleitet.',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuRocket),
     date: '2022 - 2023',
   },
   {
     title: 'Full-Stack Softwareentwickler',
-    location: 'Boostopia (Remote)',
+    location: 'Boostopia',
     description: 'Die Weiterentwicklung meiner eigenen Webplattform mit modernen JavaScript-Technologien hat meinen Weg in die professionelle Softwareentwicklung weiter gefestigt.',
     icon: React.createElement(FaReact),
     date: '2023 - 2024',
   },
   {
     title: 'B.Sc. Wirtschaftsinformatik',
-    location: 'TH Köln (Gummersbach)',
+    location: 'TH Köln - University of Applied Sciences',
     description: 'Abschlussnote: 1,8',
     icon: React.createElement(LuGraduationCap),
     date: 'Oktober 2024',
-  },
+  },    
   {
     title: 'Softwareentwickler',
-    location: 'Unicon GmbH (Remote)',
+    location: 'Unicon GmbH',
     description: 'Weiterentwicklung der Scout Management-Plattform.',
     icon: React.createElement(CgWorkAlt),
     date: 'Mai 2024 - Januar 2025',
   },
   {
     title: 'Application Development Engineer',
-    location: 'Citrix (Remote)',
+    location: 'Citrix',
     description: 'Weiterentwicklung des Scout Board.',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CitrixIcon),
     date: 'seit Januar 2025',
   },
 ] as const;
