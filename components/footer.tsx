@@ -22,8 +22,8 @@ export default function Footer() {
           <h3 className='text-2xl font-medium text-gray-950 mb-8'>Impressum</h3>
           <ul className='text-gray-950 text-left ml-2'>
             <li className='font-medium'>Paul Hermann</li>
-            <li>Im Mediapark 5</li>
-            <li>50670 Köln</li>
+            <li>Kendenicher Str. 4</li>
+            <li>50969 Köln</li>
             <li>Deutschland</li>
           </ul>
         </Modal>
